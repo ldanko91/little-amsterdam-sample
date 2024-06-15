@@ -44,10 +44,10 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: Verdana, Arial;
-    --bs-font-monospace: Verdana, Arial;
+  --bs-font-sans-serif: "Encode Sans", Verdana, Arial;
+    --bs-font-monospace: "Encode Sans", Verdana, Arial;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-    --bs-body-font-family: Verdana, Arial;
+    --bs-body-font-family: "Encode Sans", Verdana, Arial;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -105,7 +105,7 @@ hr {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: Verdana, Arial;
+  font-family: "Encode Sans", Verdana, Arial;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -237,7 +237,7 @@ sup {
 
 a {
   color: var(--bs-link-color);
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: var(--bs-link-hover-color);
@@ -3723,7 +3723,7 @@ textarea.form-control-lg {
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
-  --bs-navbar-brand-padding-y: 1rem;
+  --bs-navbar-brand-padding-y: 0rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 4rem;
   --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
@@ -5532,7 +5532,7 @@ textarea.form-control-lg {
   display: block;
   padding: var(--bs-tooltip-arrow-height);
   margin: var(--bs-tooltip-margin);
-  font-family: Verdana, Arial;
+  font-family: "Encode Sans", Verdana, Arial;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5642,7 +5642,7 @@ textarea.form-control-lg {
   z-index: var(--bs-popover-zindex);
   display: block;
   max-width: var(--bs-popover-max-width);
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family: "Encode Sans", Verdana, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -8147,7 +8147,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: var(--bs-body-bg) !important;
 }
 
 .bg-dark {
@@ -10839,7 +10839,7 @@ p {
   font-size: 1.5rem;
   font-weight: 400;
   /* font-style: italic; */
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family: "Encode Sans", Verdana, Arial, Helvetica, sans-serif;
   margin-bottom: 3rem;
 }
 
@@ -10849,8 +10849,8 @@ p {
   }
 }
 .btn-xl {
-  padding: 1.25rem 2.5rem;
-  font-family: Verdana, Arial;
+  padding: 1rem 2rem;
+    font-family: "Encode Sans", Verdana, Arial;
   font-size: 1.125rem;
   font-weight: 700;
 }
@@ -10873,13 +10873,13 @@ p {
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 0.75rem;
-  font-family: Verdana, Arial;
+  font-family: "Encode Sans", Verdana, Arial;
   text-transform: uppercase;
   font-weight: 700;
 }
 #mainNav .navbar-brand {
   color: #338a00;
-    font-family: Verdana, Arial;
+    font-family: "Encode Sans", Verdana, Arial;
   font-weight: 700;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
@@ -10891,7 +10891,7 @@ border-radius: 10%;
   width: 8rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: Verdana, Arial;
+  font-family: "Encode Sans", Verdana, Arial;
   font-size: 0.95rem;
   color: #fff;
   letter-spacing: 0.0625em;
@@ -10953,14 +10953,14 @@ header.masthead .masthead-subheading {
   font-style: italic;
   line-height: 5rem;
   margin-bottom: 35px;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family: "Encode Sans", Verdana, Arial, Helvetica, sans-serif;
 }
 header.masthead .masthead-heading {
-  font-size: 3.25rem;
+  font-size: 2.25rem;
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
-  font-family: Verdana, Arial;
+  font-family: "Encode Sans", Verdana, Arial;
 }
 
 @media (min-width: 768px) {
@@ -11016,13 +11016,13 @@ header.masthead .masthead-heading {
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
-  font-family: Verdana, Arial;
+  font-family: "Encode Sans", Verdana, Arial;
   font-weight: 700;
   margin-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family: "Encode Sans", Verdana, Arial, Helvetica, sans-serif;
 }
 
 .portfolio-modal .modal-dialog {
@@ -11041,7 +11041,7 @@ header.masthead .masthead-heading {
 .portfolio-modal .modal-content p.item-intro {
   font-style: italic;
   margin-bottom: 2rem;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family: "Encode Sans", Verdana, Arial, Helvetica, sans-serif;
 }
 .portfolio-modal .modal-content p {
   margin-bottom: 2rem;
@@ -11284,22 +11284,22 @@ section#contact form#contactForm .form-control:focus {
   box-shadow: none;
 }
 section#contact form#contactForm ::-webkit-input-placeholder {
-  font-family: Verdana, Arial;
+  font-family: "Encode Sans", Verdana, Arial;
   font-weight: 700;
   color: #ced4da;
 }
 section#contact form#contactForm :-moz-placeholder {
-  font-family: Verdana, Arial;
+  font-family: "Encode Sans", Verdana, Arial;
   font-weight: 700;
   color: #ced4da;
 }
 section#contact form#contactForm ::-moz-placeholder {
-  font-family: Verdana, Arial;
+  font-family: "Encode Sans", Verdana, Arial;
   font-weight: 700;
   color: #ced4da;
 }
 section#contact form#contactForm :-ms-input-placeholder {
-  font-family: Verdana, Arial;
+  font-family: "Encode Sans", Verdana, Arial;
   font-weight: 700;
   color: #ced4da;
 }
@@ -11307,5 +11307,44 @@ section#contact form#contactForm :-ms-input-placeholder {
 .footer {
   text-align: center;
   font-size: 0.9rem;
-  font-family: Verdana, Arial;
-}
+  font-family: "Encode Sans", Verdana, Arial;
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 8px;
+    padding: 0.5rem;
+    border-color: #000;
+    border-width: 3px;
+  }
+  
+  .card h2 {
+    margin-top: 15px;
+  }
+  
+  #wapp-link {
+    height: 4.5rem;
+    width: 5rem;
+  }
+  
+  #mail-icon {
+    height: 9rem;
+    width: 10rem;
+  }
+  

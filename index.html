@@ -11,8 +11,10 @@
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap" rel="stylesheet">
+
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -161,7 +163,7 @@
                         <h4 class="my-3">Mantenimiento de piscinas</h4>
                         <p class="text-muted">Realizamos mantenimiento y asesoramiento sobre piscinas.</p>
                         </div>
-</div>
+                </div>
             </div>
         </section>
         
@@ -192,12 +194,13 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
                         <h3 class="section-subheading text-muted">Somos profesionales con vasta trayectoria en gestión de equipos
-                        interdisciplinarios de alto rendimiento. <br><br>
-                        ● Tenemos más de 18 años de experiencia en la industria de servicios masivos. <br>
-                        ● Contamos con sólida formación académica en materia de comercialización y
-                        experiencia de clientes. <br>
-                        ● Somos apasionados por lo que hacemos.
-                    </h3>
+                        interdisciplinarios de alto rendimiento.</h3>
+                        <h3 class="section-subheading text-muted">● Tenemos más de 18 años de experiencia en la industria de servicios
+                            masivos.</h3>
+                        <h3 class="section-subheading text-muted">● Contamos con sólida formación académica en materia de comercialización
+                            y
+                            experiencia de clientes.</h3>
+                        <h3 class="section-subheading text-muted">● Somos apasionados por lo que hacemos.</h3>
                     <h4>● Más de 180 profesionales distribuidos a lo largo y ancho de todo el país
                         que componen nuestro staff técnico.</h4>
                     </div>
@@ -209,68 +212,28 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contactanos</h2>
-                    <h3 class="section-subheading text-muted">Dejanos tus datos de contacto y en breve estaremos conversando.</h3>
-                </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Tu nombre *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">Escribe tu nombre y apellido.</div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Tu Email *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">Dejanos tu email.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email incorrecto.</div>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Teléfono *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">Teléfono móvil o fijo de contacto.</div>
-                            </div>
+                    <h3 class="section-subheading text-muted" style="font-weight: bolder;">Podés encontrarnos en los siguientes medios:</h3>
+                    <div class="card-container">
+                        <div class="card">
+                            <h2>Whatsapp</h2>
+                            <img src="/assets/img/qr-little-ams.png" alt="wapp-qr">
+                            <p>Escaneá el QR o tocá el botón de whatsapp</p>
+                            <a href="https://wa.me/541170617263">
+                                <img src="/assets/img/wapp-logo.png" alt="wapp-link" id="wapp-link">
+                            </a>
                         </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Contanos cómo podemos ayudarte *"
-                                    data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">Contanos cómo podemos ayudarte.</div>
-                            </div>
+                        <div class="card">
+                            <h2>Email</h2>
+                            <a href="https://wa.me/541162929884">
+                                <img src="/assets/img/mail-logo.png" alt="wapp-link" id="mail-icon">
+                            </a>
+                            <p>Envianos por mail tu consulta y tus datos de contacto a:</p>
+                            <p style="font-weight: bolder;">hola@littleamsterdam.com.ar</p>
+                            <p>Nuestro equipo se comunicará a la brevedad para brindarte una solución personalizada.</p>
                         </div>
                     </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Tus datos fueron enviados correctamente!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
                     </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage">
-                        <div class="text-center text-danger mb-3">Error al enviar el mensaje!</div>
-                    </div>
-                    <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton"
-                            type="submit">Enviar
-                            mensaje!</button></div>
-                </form>
+                
             </div>
         </section>
         <!-- Footer-->
